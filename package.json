@@ -2,6 +2,9 @@
   "name": "no-google-redirect",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "zip": "zip -r no-google-redirect.zip script img manifest.json"
+  },
   "repository": "git@github.com:noscripter/no-google-redirect.git",
   "author": "noscripter <xiaozhenghitfm@gmail.com>",
   "license": "MIT",
