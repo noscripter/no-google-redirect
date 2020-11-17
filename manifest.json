@@ -4,11 +4,6 @@
   "version": "1.0.0",
   "author": "noscripter",
   "description": "no google redirect plz",
-  "permissions": [
-    "webRequest",
-    "webRequestBlocking",
-    "<all_urls>"
-  ],
   "background": {
     "scripts": [
       "script/http-interceptor.js"
@@ -19,7 +14,11 @@
   },
   "homepage_url": "https://github.com/noscripter/no-google-redirect",
   "permissions": [
-      "https://*/*", "http://*/*"
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>",
+    "https://*/*",
+    "http://*/*"
   ],
   "content_security_policy": "script-src 'self'; object-src 'self'",
   "content_scripts": [ {
