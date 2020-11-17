@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "no-google-redirect",
+  "version": "1.0.0",
+  "author": "noscripter",
+  "description": "no google redirect plz",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": [
+      "script/http-interceptor.js"
+    ]
+  },
+  "icons": {
+    "96": "img/icon.png"
+  },
+  "applications": {
+    "gecko": {
+      "id": "no-google-redirect@1.0.0",
+      "strict_min_version": "54.0"
+    }
+  }
+}
